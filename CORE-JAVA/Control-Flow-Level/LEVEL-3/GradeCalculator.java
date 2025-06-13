@@ -14,19 +14,19 @@ public class GradeCalculator {
         double average = (physics + chemistry + maths) / 3.0;
         System.out.println("Average Percentage: " + average);
 
-        if (average >= 90)
-            System.out.println("Grade: A+ | Remarks: Outstanding");
-        else if (average >= 80)
-            System.out.println("Grade: A | Remarks: Excellent");
-        else if (average >= 70)
-            System.out.println("Grade: B | Remarks: Good");
-        else if (average >= 60)
-            System.out.println("Grade: C | Remarks: Satisfactory");
-        else if (average >= 50)
-            System.out.println("Grade: D | Remarks: Pass");
-        else
-            System.out.println("Grade: F | Remarks: Fail");
-
+        if (average >= 80)
+            System.out.println("Grade: A | Remarks: Level 4,above agency-normalized standards");
+        else if (average >= 70 && average <=79)
+            System.out.println("Grade: B | Remarks: Level 3,at agency-normalized standards");
+        else if (average >= 60 && average <=69)
+            System.out.println("Grade: C | Remarks: Level 2,below,but approaching agency-normalized standards");
+        else if (average >= 50 && average <=59)
+            System.out.println("Grade: D | Remarks: Level 1,well below agency-normalized standards");
+        else if( average >= 40 && average <=49)
+            System.out.println("Grade: F | Remarks: Level 1-,too below agency-normalized standards");
+        else{
+            System.out.println("Grade: F | Remarks: remedial standards");
+        }
         input.close();
     }
 }
