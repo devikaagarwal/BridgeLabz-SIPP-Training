@@ -1,4 +1,3 @@
-// Question 20: Advanced Unit Converter
 public class AdvancedUnitConverter {
 
     public static double convertFahrenheitToCelsius(double fahrenheit) {
