@@ -33,7 +33,6 @@ public class RockPaperScissors {
             results[i][2] = winner;
         }
 
-        // Add stats row
         String[][] finalResults = Arrays.copyOf(results, rounds + 1);
         String userPct = String.format("%.2f", (userWins * 100.0 / rounds));
         String compPct = String.format("%.2f", (compWins * 100.0 / rounds));
