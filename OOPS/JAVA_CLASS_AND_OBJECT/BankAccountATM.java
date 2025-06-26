@@ -1,11 +1,11 @@
 package OOPS.JAVA_CLASS_AND_OBJECT;
 
-class BankAccount {
+class BankAccountATM {
     String accountHolder;
     String accountNumber;
     double balance;
 
-    BankAccount(String accountHolder, String accountNumber, double balance) {
+    BankAccountATM(String accountHolder, String accountNumber, double balance) {
         this.accountHolder = accountHolder;
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -32,7 +32,7 @@ class BankAccount {
     }
 
     public static void main(String[] args) {
-        BankAccount acc = new BankAccount("Ravi Kumar", "1234567890", 5000);
+        BankAccountATM acc = new BankAccountATM("Ravi Kumar", "1234567890", 5000);
         acc.deposit(2000);
         acc.withdraw(3000);
         acc.displayBalance();
