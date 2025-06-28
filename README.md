@@ -76,5 +76,39 @@ Each entry includes concepts covered, skills practiced, and links to the exact c
 
 ---
 
+### 📅 25/06/25 (Wed) – Day 4 – Java Object Oriented Design Principles  
+*Topics*: Classes vs. Objects in Java, Class Diagrams, Object Diagrams, and Sequence Diagrams. 
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/oops/OOPS/OBJECT_ORIENTED_DESIGN_PRINCIPLES)
+
+---
+
+## WORKSHOP Branch 🧱
+
+### 📅 26/06/25 (Thu) – Day 1
+Created Student and Student_Report classes to input multiple students' subject marks, calculate average and assign grades, and display a formatted report card
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/StudentReport.java)
+
+---
+
+### 📅 27/06/25 (Fri) – Day 2
+Ques1: Implemented BookBuddy with book addition, sorting, search by author, and conversion to array
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/BookBuddy.java)
+
+Ques2: Implemented quiz platform to evaluate answers, calculate scores, assign grades, and handle input validation
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/QuizResultProcessor.java)
+
+---
+
+### 📅 28/06/25 (Sat) – Day 3
+Ques1: Simulated a flight booking system:Stored flights in an array (flight no, source, destination, price) while Keep user bookings in a list.Support case-insensitive flight search.Include methods to search, book, and display bookings.
+Optionally, throw an exception if booking a non-existent flight.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/FlightBookingSystem.java)
+
+Ques2: Manage movie titles and showtimes:Use lists for titles and times.Methods to add, search (with contains()), and display movies.Format output strings.Handle invalid indices and throw InvalidTimeFormatException for bad times.
+Convert lists to arrays for reports.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/CinemaTimeManager.java)
+
+---
+
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
