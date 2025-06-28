@@ -41,14 +41,14 @@ public class BookBuddy{
     }
 
 	public static void main(String[] args) {
-	    Scanner sc=new Scanner(System.in);
-	    System.out.print("\nEnter the number Of books : ");
-	    int n=sc.nextInt();
-	    for(int i=0;i<n;i++){
-	        String title=sc.next();
-	        String author=sc.next();
-	        addBooks(title,author);
-	    }
+        Scanner sc=new Scanner(System.in);
+        System.out.print("\nEnter the number Of books : ");
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            String title=sc.next();
+            String author=sc.next();
+            addBooks(title,author);
+        }
 		System.out.println("ALL BOOKS:");
 		displayBooks();
 		System.out.println("\nBooks sorted alphabetcially :");
