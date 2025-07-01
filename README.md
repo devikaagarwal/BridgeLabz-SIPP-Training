@@ -100,12 +100,10 @@ Ques2: Implemented quiz platform to evaluate answers, calculate scores, assign g
 ---
 
 ### 📅 28/06/25 (Sat) – Day 3
-Ques1: Simulated a flight booking system:Stored flights in an array (flight no, source, destination, price) while Keep user bookings in a list.Support case-insensitive flight search.Include methods to search, book, and display bookings.
-Optionally, throw an exception if booking a non-existent flight.
+Ques1: Implemented Flight Booking System with search, booking, and display features.
 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/FlightBookingSystem.java)
 
-Ques2: Manage movie titles and showtimes:Use lists for titles and times.Methods to add, search (with contains()), and display movies.Format output strings.Handle invalid indices and throw InvalidTimeFormatException for bad times.
-Convert lists to arrays for reports.
+Ques2: Implemented CinemaTime movie schedule manager with all core features.
 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/CinemaTimeManager.java)
 
 ---
