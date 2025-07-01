@@ -82,6 +82,12 @@ Each entry includes concepts covered, skills practiced, and links to the exact c
 
 ---
 
+### 📅 01/07/25 (Mon) – Day 5 – Java Inheritance  
+*Topics*: Inheritance,Single Level Inheritance,Multilevel Inheritance,Hierarchical Inheritance,Key Features of Inheritance,Method Overriding,Constructor Inheritance in Java,Polymorphism and Inheritance,Access Modifiers and Inheritance
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/oops/OOPS/INHERITANCE)
+
+---
+
 ## WORKSHOP Branch 🧱
 
 ### 📅 26/06/25 (Thu) – Day 1
