@@ -82,9 +82,15 @@ Each entry includes concepts covered, skills practiced, and links to the exact c
 
 ---
 
-### 📅 01/07/25 (Mon) – Day 5 – Java Inheritance  
+### 📅 01/07/25 (Tue) – Day 5 – Java Inheritance  
 *Topics*: Inheritance,Single Level Inheritance,Multilevel Inheritance,Hierarchical Inheritance,Key Features of Inheritance,Method Overriding,Constructor Inheritance in Java,Polymorphism and Inheritance,Access Modifiers and Inheritance
 🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/oops/OOPS/INHERITANCE)
+
+---
+
+### 📅 02/07/25 (Wed) – Day 6 – Java Encapsulation and Polymorphism  
+*Topics*: Encapsulation, Polymorphism, Interface and Abstract Class,Types of polymorphism,
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/oops/OOPS/Encapsulation_Polymorphism)
 
 ---
 
