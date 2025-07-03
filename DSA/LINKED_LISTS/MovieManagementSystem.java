@@ -1,6 +1,6 @@
 package DSA.LINKED_LISTS;
 
-class MovieManagementSystem {
+public class MovieManagementSystem {
     static class MovieNode {
         String title, director;
         int year;
