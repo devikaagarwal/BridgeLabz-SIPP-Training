@@ -120,5 +120,14 @@ Ques2: Implemented CinemaTime movie schedule manager with all core features.
 
 ---
 
+## DSA Branch 🧱
+
+### 📅 03/07/25 (Thurs) – Day 1 – LINKED LIST  
+*Topics*: Implementation of Single Linked List,Double Linked List,Circular Linked List
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/dsa/DSA/LINKED_LISTS)
+
+---
+
+
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
