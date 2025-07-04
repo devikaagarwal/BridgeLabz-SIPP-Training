@@ -120,6 +120,12 @@ Ques2: Implemented CinemaTime movie schedule manager with all core features.
 
 ---
 
+### 📅 04/07/25 (Fri) – Day 4
+Ques: Add parcel tracker with stage tracking and lost parcel handling.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/ParcelTracker.java)
+
+---
+
 ## DSA Branch 🧱
 
 ### 📅 03/07/25 (Thurs) – Day 1 – LINKED LIST  
