@@ -37,6 +37,5 @@ public class QueueUsingStacks {
         System.out.println(queue.isEmpty());
         System.out.println(queue.dequeue());
         System.out.println(queue.isEmpty());
-        // System.out.println(queue.dequeue()); // RuntimeException: Queue is empty
     }
 }
