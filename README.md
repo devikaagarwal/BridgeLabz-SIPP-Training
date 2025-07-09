@@ -134,7 +134,7 @@ Ques: Add parcel tracker with stage tracking and lost parcel handling.
 
 ---
 
-### 📅 07/07/25 (Mon) – Day 2 – STACK,QUEUE,HASHMAP  
+### 📅 07/07/25 - 08/07/25 (Mon-Tues) – Day 2 – STACK,QUEUE,HASHMAP  
 *Topics*: introduction to Stack, Queue, and their operations, HashMap and Hashing techniques.
 🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/dsa/DSA/Stack_Queue_HashMap)
 
