@@ -126,6 +126,12 @@ Ques: Add parcel tracker with stage tracking and lost parcel handling.
 
 ---
 
+### 📅 10/07/25 (Thurs) – Day 5
+Ques: Implement University Enrollment System with OOP: classes, inheritance, grading interface, GPA handling.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/UniversitySystem.java)
+
+---
+
 ## DSA Branch 🧱
 
 ### 📅 03/07/25 (Thurs) – Day 1 – LINKED LIST  
