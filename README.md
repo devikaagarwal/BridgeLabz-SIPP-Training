@@ -146,5 +146,10 @@ Ques: Implement University Enrollment System with OOP: classes, inheritance, gra
 
 ---
 
+### 📅 09/07/25 (Wed) – Day 3 – Sorting Algorithms  
+*Topics*:Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort,Counting Sort
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/dsa/DSA/Sorting_Algorithms)
+
+---
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
