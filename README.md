@@ -132,6 +132,12 @@ Ques: Implement University Enrollment System with OOP: classes, inheritance, gra
 
 ---
 
+### 📅 11/07/25 (Fri) – Day 6
+Ques: Implement backend classes for CabGo ride-hailing app with vehicles, drivers, ride booking, and fare calculation.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/CabGoTest.java)
+
+---
+
 ## DSA Branch 🧱
 
 ### 📅 03/07/25 (Thurs) – Day 1 – LINKED LIST  
@@ -151,5 +157,18 @@ Ques: Implement University Enrollment System with OOP: classes, inheritance, gra
 🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/dsa/DSA/Sorting_Algorithms)
 
 ---
+
+### 📅 10/07/25 (Thurs) – Day 4 – Searching Algorithms  
+*Topics*:StringBuilder,StringBuffer,FileReader,InputStreamReader,Linear Search,Binary Search,
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/dsa/DSA/Searching_Algorithms)
+
+---
+
+### 📅 11/07/25 (Fri) – Day 5 – Algorithm's Runtime Analysis & Big-O Notation  
+*Topics*:Runtime Analysis;Understanding Big-O Notation;Time Complexity Analysis;Space Complexity Analysis;Best, Worst, and Average Case Complexities;Practical Guidelines for Optimizing Java Code
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/dsa/DSA/Algorithm's_Runtime_Analysis)
+
+---
+
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
