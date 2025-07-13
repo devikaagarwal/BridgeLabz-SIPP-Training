@@ -1,3 +1,4 @@
+package WORKSHOP;
 
 interface Graded {
     void assignGrade(Enrollment enrollment, String grade);

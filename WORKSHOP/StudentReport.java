@@ -1,3 +1,5 @@
+package WORKSHOP;
+
 import java.util.*;
 class Student{
 String name;

@@ -1,3 +1,5 @@
+package WORKSHOP;
+
 import java.util.*;
 public class QuizResultProcessor {
     private String[] correctAnswers;
