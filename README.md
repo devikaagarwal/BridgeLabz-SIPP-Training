@@ -139,8 +139,11 @@ Ques: Implement backend classes for CabGo ride-hailing app with vehicles, driver
 ---
 
 ### 📅 14/07/25 (Mon) – Day 7
-Ques: add browser history navigation using doubly linked list and OOP principles
+Ques 1: add browser history navigation using doubly linked list and OOP principles
 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/BrowserHistoryDemo.java)
+
+Ques 2: Implement genre-wise library catalog using HashMap and LinkedList with duplication check via HashSet
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/BookShelfDemo.java)
 
 ---
 
