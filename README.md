@@ -147,6 +147,12 @@ Ques 2: Implement genre-wise library catalog using HashMap and LinkedList with d
 
 ---
 
+### 📅 15/07/25 (Tues) – Day 8
+Ques: Add music playlist queue with custom LinkedList and OOP design
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/MusicPlayList.java)
+
+---
+
 ## DSA Branch 🧱
 
 ### 📅 03/07/25 (Thurs) – Day 1 – LINKED LIST  
