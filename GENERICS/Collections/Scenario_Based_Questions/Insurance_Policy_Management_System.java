@@ -1,4 +1,4 @@
-package GENERICS.Collections;
+package GENERICS.Collections.Scenario_Based_Questions;
 
 import java.util.*;
 import java.text.*;

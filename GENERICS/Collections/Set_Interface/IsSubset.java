@@ -1,4 +1,4 @@
-package GENERICS.Collections;
+package GENERICS.Collections.Set_Interface;
 
 import java.util.*;
 
