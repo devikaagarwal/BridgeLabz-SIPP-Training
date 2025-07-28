@@ -153,6 +153,22 @@ Ques: Add music playlist queue with custom LinkedList and OOP design
 
 ---
 
+### 📅 25/07/25 (Fri) – Day 9
+Ques: Add address book system with HashMap storage, search by name/phone, generics, file I/O, and comparator-based sorting.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/AddressBook_Management_System.java)
+
+---
+
+### 📅 28/07/25 (Mon) – Day 10
+
+Ques 1: Implement student marks report using Map and List with features to add marks, calculate averages, and find top performer.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/StudentMarksReport.java)
+
+Ques 2: Add student management system using HashMap for storage, Comparator for sorting, and Set for subject-based search.
+[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/StudentManagementDemo.java)
+
+---
+
 ## DSA Branch 🧱
 
 ### 📅 03/07/25 (Thurs) – Day 1 – LINKED LIST  
@@ -187,11 +203,16 @@ Ques: Add music playlist queue with custom LinkedList and OOP design
 
 ## GENERICS Branch 🧱
 
-### 📅 21/07/25 (Mon) – Day 1  
+### 📅 21/07/25 - 22/07/25 (Mon-Tues) – Day 1 - Generics
 *Topics*: Introduction to Generics,Type Parameters,Generic Classes,Generic Methods,Bounded Type Parameters,Wildcards
 🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/generics/GENERICS/DAY1)
 
 ---
 
+### 📅 23/07/25 - 24/07/25 (Wed-Thurs) – Day 2 - Collections  
+*Topics*: Overview of Collections Framework,What is the Collections Framework?,Hierarchy of Collections Framework,List Interface and Implementing Classes,Set Interface and Implementing Classes,Queue and Deque Interfaces,Map Interface and Its Implementations,Comparison of Different Implementations,Real-World Use Cases and Best Practices.
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/generics/GENERICS/Collections)
+
+---
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
