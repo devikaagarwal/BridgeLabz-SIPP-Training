@@ -22,7 +22,7 @@ class PolicyMap {
     }
 }
 
-public class Insurance_Policy_Management_System {
+public class Insurance_Policy_Management_System_Using_Map {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
