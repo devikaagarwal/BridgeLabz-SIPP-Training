@@ -1,4 +1,4 @@
-package GENERICS.Collections;
+package GENERICS.Collections.List_Interface;
 
 import java.util.*;
 
