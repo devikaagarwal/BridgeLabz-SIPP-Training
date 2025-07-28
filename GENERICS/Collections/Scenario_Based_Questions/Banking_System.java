@@ -7,13 +7,11 @@ public class Banking_System {
     private TreeMap<Double, List<String>> sortedByBalance = new TreeMap<>();
     private Queue<String> withdrawalQueue = new LinkedList<>();
 
-    // Create account
     public void createAccount(String accountNumber, double initialBalance) {
         accounts.put(accountNumber, initialBalance);
         sortedByBalance.computeIfAbsent(initialBalance, k -> new ArrayList<>()).add(accountNumber);
     }
 
-    // Request withdrawal
     public void requestWithdrawal(String accountNumber) {
         if (accounts.containsKey(accountNumber)) {
             withdrawalQueue.offer(accountNumber);
@@ -22,7 +20,6 @@ public class Banking_System {
         }
     }
 
-    // Process withdrawal (simulating a fixed amount for simplicity)
     public void processWithdrawals(double amount) {
         while (!withdrawalQueue.isEmpty()) {
             String acc = withdrawalQueue.poll();
@@ -37,7 +34,6 @@ public class Banking_System {
         }
     }
 
-    // Update balance in TreeMap
     private void updateSortedBalance(String acc, double oldBalance, double newBalance) {
         sortedByBalance.get(oldBalance).remove(acc);
         if (sortedByBalance.get(oldBalance).isEmpty()) {
@@ -46,7 +42,6 @@ public class Banking_System {
         sortedByBalance.computeIfAbsent(newBalance, k -> new ArrayList<>()).add(acc);
     }
 
-    // Display accounts sorted by balance
     public void displaySortedAccounts() {
         System.out.println("Accounts sorted by balance:");
         for (Map.Entry<Double, List<String>> entry : sortedByBalance.entrySet()) {
