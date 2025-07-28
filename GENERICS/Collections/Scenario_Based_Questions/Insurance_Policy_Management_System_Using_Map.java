@@ -16,7 +16,6 @@ class PolicyMap {
         this.premium = premium;
     }
 
-    @Override
     public String toString() {
         return number + " | " + holder + " | " + expiry + " | " + type + " | " + premium;
     }
