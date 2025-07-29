@@ -214,5 +214,12 @@ Ques 2: Add student management system using HashMap for storage, Comparator for 
 🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/generics/GENERICS/Collections)
 
 ---
+
+### 📅 29/07/25 (Tues) – Day 3 - JAVA STREAMS  
+*Topics*: Java I/O Streams,Types of Streams,File Streams,Object Streams,ByteArray Streams,Buffered Streams,Reader and Writer
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/generics/GENERICS/JAVA_STREAMS)
+
+---
+
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
