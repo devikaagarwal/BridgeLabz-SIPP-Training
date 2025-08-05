@@ -221,5 +221,11 @@ Ques 2: Add student management system using HashMap for storage, Comparator for 
 
 ---
 
+### 📅 01/08/25 (Fri) – Day 4 - EXCEPTIONS  
+*Topics*: Exceptions , Types of Exceptions , Checked Exceptions , Unchecked Exceptions , Custom Exceptions , Handling Exceptions , try-catch blocks , try-catch-finally blocks , try-with-resources statement , throws clause , throw statement , Creating Custom Exceptions , Extending Exception Class , Defining Constructors
+🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/generics/GENERICS/Exceptions)
+
+---
+
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
