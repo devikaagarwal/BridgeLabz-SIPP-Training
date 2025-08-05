@@ -1,3 +1,5 @@
+package GENERICS.Exceptions;
+
 import java.util.*;
 
 public class DivideNumbers {
