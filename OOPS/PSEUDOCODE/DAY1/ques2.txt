@@ -1,0 +1,11 @@
+Define class Member:
+    Attributes: name, memberID, membershipDate
+    Constructor: set all attributes
+    Method: isMembershipValid():
+        If today's date is within 1 year from membershipDate:
+            return true
+        else return false
+
+In main:
+    Create a Member object with sample data
+    Check and print if membership is valid
