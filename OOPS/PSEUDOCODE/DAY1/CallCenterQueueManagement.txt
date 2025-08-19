@@ -1,0 +1,21 @@
+Create two Queues:
+    normalQueue
+    emergencyQueue
+
+Function addCustomer(name, type):
+    If type is "emergency":
+        Add to emergencyQueue
+    Else:
+        Add to normalQueue
+
+Function serveCustomer():
+    If emergencyQueue not empty:
+        Dequeue from emergencyQueue
+    Else if normalQueue not empty:
+        Dequeue from normalQueue
+    Else:
+        Print "No customers"
+
+In main:
+    Add customers with normal and emergency types
+    Serve customers in correct priority order
