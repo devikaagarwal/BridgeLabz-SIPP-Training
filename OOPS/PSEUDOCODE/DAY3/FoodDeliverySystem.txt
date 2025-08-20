@@ -1,0 +1,18 @@
+Define class Customer:
+    Attributes: name, address
+
+Define class Restaurant:
+    Attributes: name, location
+
+Define class DeliveryBoy:
+    Attributes: name, contact
+
+Define class Order:
+    Attributes: orderId, Customer, Restaurant, DeliveryBoy
+    Constructor: initialize all
+    Method: showOrderDetails() → print all details
+
+In main:
+    Create Customer, Restaurant, DeliveryBoy
+    Create Order with these objects (composition)
+    Call showOrderDetails()
