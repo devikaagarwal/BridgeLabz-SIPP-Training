@@ -1,0 +1,10 @@
+Create a HashMap<String, Integer> for studentName -> score
+
+Add multiple students with scores to the map
+
+Find highest scorer using streams:
+    maxEntry = map.entrySet().stream()
+        .max(comparingByValue())
+        .get()
+
+Print highest scorer's name and score
