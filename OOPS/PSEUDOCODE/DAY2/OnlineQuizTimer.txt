@@ -1,9 +1,0 @@
-Define circular array timeSlots[] of size N (questions)
-For each question i:
-    Assign timeSlots[i] = time allocated
-
-Start quiz timer:
-    For each slot:
-        If remainingTime < warningThreshold:
-            Print "Warning: Time is almost over for this question"
-        Move to next slot in circular array
