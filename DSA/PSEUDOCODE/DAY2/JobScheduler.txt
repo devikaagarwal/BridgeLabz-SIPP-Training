@@ -1,0 +1,14 @@
+Define Job class:
+    Attributes: id, deadline, processingTime
+
+Use PriorityQueue with custom comparator:
+    Order jobs by earliest deadline, then by shortest processingTime
+
+Function scheduleJobs():
+    While queue not empty:
+        Remove job with highest priority
+        Print "Executing job with id ..."
+
+In main:
+    Insert jobs into priority queue
+    Call scheduleJobs()
