@@ -1,0 +1,19 @@
+Use HashMap<String, Patient> where key = patientID
+
+Define class Patient:
+    Attributes: id, name, age, disease
+
+Function addPatient(id, patient):
+    map.put(id, patient)
+
+Function getPatient(id):
+    return map.get(id)
+
+Function updatePatient(id, updatedPatient):
+    map.put(id, updatedPatient)
+
+Function deletePatient(id):
+    map.remove(id)
+
+In main:
+    Add, retrieve, update, and delete patients
