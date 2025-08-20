@@ -1,0 +1,14 @@
+Define abstract class Crop:
+    Abstract methods: waterRequirement(), harvest()
+
+Define class Rice extends Crop:
+    Implement waterRequirement(): return "High water needed"
+    Implement harvest(): return "Rice harvested in 4 months"
+
+Define class Wheat extends Crop:
+    Implement waterRequirement(): return "Moderate water needed"
+    Implement harvest(): return "Wheat harvested in 3 months"
+
+In main:
+    Create Rice and Wheat objects
+    Call waterRequirement() and harvest() for both
