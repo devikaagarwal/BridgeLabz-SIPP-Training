@@ -1,0 +1,28 @@
+interface Rentable
+    method rent(duration)
+    method returnVehicle()
+
+abstract class Vehicle implements Rentable
+    attributes: vehicleId, brand, rentalRate
+
+class Car extends Vehicle
+    method rent(duration)
+        print "Car rented for duration"
+    method returnVehicle()
+        print "Car returned"
+
+class Bike extends Vehicle
+    method rent(duration)
+        print "Bike rented for duration"
+    method returnVehicle()
+        print "Bike returned"
+
+class VehicleFactory
+    static method createVehicle(type)
+        if type == "Car" return new Car()
+        if type == "Bike" return new Bike()
+
+main()
+    v1 = VehicleFactory.createVehicle("Car")
+    v1.rent(5)
+    v1.returnVehicle()
