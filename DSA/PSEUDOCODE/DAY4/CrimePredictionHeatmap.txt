@@ -1,0 +1,23 @@
+class Graph
+    attribute adjacencyList
+
+    method addEdge(zone1, zone2)
+        adjacencyList[zone1].add(zone2)
+        adjacencyList[zone2].add(zone1)
+
+    method dfs(zone, visited, riskCount)
+        mark zone as visited
+        riskCount += crimeData[zone]
+        for neighbor in adjacencyList[zone]
+            if not visited[neighbor]
+                dfs(neighbor, visited, riskCount)
+
+main()
+    graph = new Graph()
+    load zones & past crime data
+    visited = []
+    for each zone in graph
+        if not visited[zone]
+            risk = dfs(zone, visited, 0)
+            if risk > THRESHOLD
+                print "High risk cluster at zone"
