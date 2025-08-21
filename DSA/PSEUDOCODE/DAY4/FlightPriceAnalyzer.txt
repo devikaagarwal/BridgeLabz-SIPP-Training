@@ -1,0 +1,21 @@
+class Flight
+    attributes: flightId, price, duration
+
+comparator FlightComparator
+    compare f1, f2
+        if f1.price != f2.price
+            return f1.price - f2.price
+        else
+            return f1.duration - f2.duration
+
+function mergeSort(flights, comparator)
+    if flights.size <= 1 return flights
+    split into left, right
+    leftSorted = mergeSort(left, comparator)
+    rightSorted = mergeSort(right, comparator)
+    return merge(leftSorted, rightSorted, comparator)
+
+main()
+    flights = [list of Flight objects]
+    sortedFlights = mergeSort(flights, FlightComparator)
+    display sortedFlights
