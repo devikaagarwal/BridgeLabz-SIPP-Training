@@ -1,0 +1,19 @@
+class Transaction
+    attributes: id, amount, merchant, date
+
+main()
+    transactions = [list of Transaction]
+
+    report = transactions.stream()
+        .collect(groupingBy(
+            transaction -> transaction.merchant,
+            groupingBy(
+                transaction -> extractMonth(transaction.date),
+                summingDouble(transaction -> transaction.amount)
+            )
+        ))
+
+    for each merchant in report
+        print merchant
+        for each month in report[merchant]
+            print month + " -> " + report[merchant][month]
