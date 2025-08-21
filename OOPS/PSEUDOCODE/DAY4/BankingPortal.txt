@@ -1,0 +1,27 @@
+class Account
+    attributes: accountNumber, balance
+    method withdraw(amount)
+        if amount <= balance
+            balance -= amount
+        else
+            print "Insufficient funds"
+
+class SavingAccount extends Account
+    method withdraw(amount)
+        if amount <= balance AND (balance - amount) >= 1000
+            balance -= amount
+        else
+            print "Withdrawal denied - Minimum balance rule"
+
+class CurrentAccount extends Account
+    method withdraw(amount)
+        if amount <= balance + overdraftLimit
+            balance -= amount
+        else
+            print "Withdrawal denied - Overdraft limit exceeded"
+
+main()
+    create saving = new SavingAccount()
+    create current = new CurrentAccount()
+    saving.withdraw(500)
+    current.withdraw(2000)
