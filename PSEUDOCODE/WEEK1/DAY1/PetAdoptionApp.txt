@@ -1,0 +1,20 @@
+Define class Pet:
+    Attributes: name, age
+    Constructor: set name and age
+    Method: displayInfo()
+
+Define class Dog extends Pet:
+    Constructor: call Pet constructor with name and age
+    Method: bark()
+
+Define class Cat extends Pet:
+    Constructor: call Pet constructor with name and age
+    Method: meow()
+
+Define class Bird extends Pet:
+    Constructor: call Pet constructor with name and age
+    Method: chirp()
+
+In main:
+    Create Dog, Cat, and Bird objects
+    Call displayInfo() and their specific sound methods

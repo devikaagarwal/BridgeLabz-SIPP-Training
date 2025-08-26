@@ -1,0 +1,20 @@
+Define interface Searchable:
+    Method: search(keyword)
+
+Define interface Printable:
+    Method: printReport()
+
+Define class LabReport implements Searchable, Printable:
+    Attributes: reportId, patientName, details
+    Implement search(): check keyword in details
+    Implement printReport(): print lab report info
+
+Define class Prescription implements Searchable, Printable:
+    Attributes: doctorName, patientName, medicines
+    Implement search(): check keyword in medicines
+    Implement printReport(): print prescription info
+
+In main:
+    Create LabReport and Prescription objects
+    Store in List<Searchable>
+    Demonstrate polymorphism by calling search() and printReport()

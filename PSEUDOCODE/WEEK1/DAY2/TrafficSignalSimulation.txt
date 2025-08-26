@@ -1,0 +1,15 @@
+Define enum TrafficLight { RED, YELLOW, GREEN }
+
+Define class TrafficSignal:
+    Attribute: currentLight
+    Constructor: set currentLight = RED
+    Method: switchLight():
+        If currentLight == RED → set to GREEN
+        If currentLight == GREEN → set to YELLOW
+        If currentLight == YELLOW → set to RED
+    Method: showLight():
+        Print currentLight
+
+In main:
+    Create TrafficSignal object
+    Switch lights at intervals (simulate using loop)
