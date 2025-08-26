@@ -1,0 +1,14 @@
+class Course
+    attributes: courseId, name
+
+class Student
+    attributes: rollNo, name
+
+main()
+    map<Course, List<Student>> courseMap
+
+    add students to courses
+    for each course in courseMap
+        print course.name
+        for student in courseMap[course]
+            print student.name

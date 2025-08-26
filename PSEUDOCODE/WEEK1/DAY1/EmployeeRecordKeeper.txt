@@ -1,0 +1,14 @@
+Define Employee class:
+    Attributes: name, department
+    Constructor: set attributes
+
+In main:
+    Create ArrayList<Employee>
+    Add multiple employees
+
+    Filter employees by a given department using streams:
+        filteredList = list.stream()
+            .filter(emp -> emp.department equals targetDept)
+            .collect(toList())
+
+    Print filtered employees

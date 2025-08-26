@@ -1,0 +1,13 @@
+Define class Doctor:
+    Attributes: name, specialization
+
+Create Map<String, List<Doctor>> departments
+
+Add doctors to departments:
+    Example: departments["Cardiology"] = [doc1, doc2]
+
+Function filterDoctorsBySpecialization(specialization):
+    For each department in map:
+        For each doctor in department list:
+            If doctor.specialization == specialization:
+                Print doctor details
