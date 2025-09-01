@@ -1,0 +1,15 @@
+class SurveyResponse {
+    String restaurantName;
+    int rating;
+}
+
+List<SurveyResponse> responses;
+Map<String, Double> avgRatings;
+
+generateReport():
+    avgRatings = responses.stream()
+                  .collect(groupingBy(getRestaurant, averagingInt(getRating)))
+    find restaurant with max avg
+    find restaurant with min avg
+
+print report
