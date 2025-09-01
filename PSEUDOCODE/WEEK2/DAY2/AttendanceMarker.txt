@@ -1,0 +1,12 @@
+int attendance[30][30]; // students x days
+
+markAttendance(student, day, 1 or 0)
+dailySummary(day) → count column
+monthlySummary(student) → count row
+defaulters() → if attendance < 75%
+
+// Example Run
+markAttendance(1, 1, 1)  // Student1 Day1 = Present
+dailySummary(10)         // Count present on Day10
+monthlySummary(5)        // Total attendance of Student5
+defaulters()             // Students < 22 days
