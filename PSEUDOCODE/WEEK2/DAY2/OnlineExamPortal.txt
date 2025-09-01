@@ -1,0 +1,16 @@
+class User {
+    String username, password;
+    login() → validate credentials
+}
+
+class Student extends User {
+    login() → check if registered AND enrolled
+}
+
+class Admin extends User {
+    login() → check staff credentials AND admin role
+}
+
+// Example Run
+student.login("john123", "pass123")
+admin.login("admin01", "adminPass")
