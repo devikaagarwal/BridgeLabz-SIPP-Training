@@ -1,0 +1,21 @@
+class Vehicle {
+    String vehicleNumber;
+    Time entryTime;
+    calculateFee(exitTime) → base version
+}
+
+class Car extends Vehicle {
+    calculateFee(exitTime) → 50 + 30 * (hours-1)
+}
+
+class Bike extends Vehicle {
+    calculateFee(exitTime) → 20 + 10 * (hours-1)
+}
+
+class Truck extends Vehicle {
+    calculateFee(exitTime) → 100 + 50 * (hours-1)
+}
+
+// Example Run
+car.enter("KA05AB1234", 10:00)
+car.exit(13:30) → prints fee = 125
