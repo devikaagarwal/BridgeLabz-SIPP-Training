@@ -1,0 +1,17 @@
+class Node {
+    String stopName;
+    Node next;
+}
+
+class BusRoute {
+    Node head;
+    insert(stopName, position)
+    delete(stopName)
+    search(stopName)
+}
+
+// Example Run
+Depot → Main Street → City Mall → Hospital → Airport
+Insert(University, after City Mall)
+Delete(Hospital)
+Search(Airport) → Found
